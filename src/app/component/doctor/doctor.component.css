@@ -1,0 +1,56 @@
+.main{
+    margin-left: 250px;
+}
+.list{
+    font-size:20px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.btnw{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    gap: 15px;
+}
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  .example-card {
+    max-width: 450px;
+    background-color:#fafcfc;
+  }
+  span{
+    /* font-size: small; */
+    display: flex;
+    /* flex-direction: column; */
+  }
+.img1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.top{
+    display: flex;
+    gap: 20px;
+}
+.name h2,h3{
+margin: auto;
+}
+.name h3{
+font-size: 14px;
+}
+.dd{
+color: #95a5a6;
+}
+.comm{
+  display: flex;
+  gap: 15px;
+}
+.ex{
+  border-left:1px solid #7f8c8d;
+  padding-left: 15px;
+}
+.btn{
+  height: 40px;
+}

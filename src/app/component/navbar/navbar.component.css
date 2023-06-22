@@ -1,0 +1,31 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.icon img{
+  height: 40px;
+  width: 40px;
+}
+#appiont{
+ padding-left: 20px;
+}
+.mat-toolbar{
+  height: 50px;
+}
+.git{
+  height: 30px;
+  width: 110px;
+  color: #bdc3c7;
+  border-left: 2px solid #bdc3c7;
+  display: flex;
+  align-items: center;
+}
+.git span{
+  margin: 5px;
+}
+#log{
+  font-size:15px;
+  color: #ecf0f1;
+}
+#gitlogo{
+  font-size: 30px;
+}

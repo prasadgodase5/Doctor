@@ -1,0 +1,33 @@
+.container{
+    height: 630px;
+    width: 480px;
+    
+}  
+  .example-full-width {
+    width: 100%;
+  }
+  .mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  }
+  .btn{
+    margin: 10px;
+    display: flex;
+    justify-content: right;
+  }
+  .con{
+    display: flex;
+    gap: 15px;
+  }
+  .con1{
+    padding-top: 10px;
+    display: flex;
+    gap: 15px;
+  }
+  .co{
+    /* margin-top: 10px; */
+    display: flex;
+    gap: 25px;
+  }
+  .duty{
+    padding-top: 10px;
+  }

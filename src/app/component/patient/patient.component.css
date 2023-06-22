@@ -1,0 +1,25 @@
+.main{
+    margin-left: 250px;
+}
+.list{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+#ttttt{
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.side{
+    display: flex;
+    justify-content: right;
+    padding-right: 65px;
+    gap: 15px;
+}
+.search input{
+    height: 35px;
+}
+.search button{
+    height: 35px;
+}

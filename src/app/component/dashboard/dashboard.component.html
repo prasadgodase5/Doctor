@@ -1,0 +1,183 @@
+
+<!-- <app-navbar></app-navbar> -->
+<div class="Main">
+    <app-navbar></app-navbar>
+    <div class="sidebar">
+        <!-- <app-sidebar></app-sidebar> -->
+    </div>
+    <div class="nav">
+        <!-- <app-navbar></app-navbar> -->
+        <div class="dash">
+            <div class="maincard">
+                <div class="card1">
+                    <div class="cards">
+                        <mat-card class="example-card">
+                            <mat-card-header>
+                                <mat-card-title-group>
+                                    <mat-card-title>Total Appointment-Today</mat-card-title>
+                                    <mat-card-subtitle>
+                                        <div  class="icon">
+                                            <span id="svg"><img src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/Icons/Today_Widget.svg" alt=""></span>
+                                        <span class="four">4</span>
+                                        </div>
+                                    </mat-card-subtitle>
+                                </mat-card-title-group>
+                            </mat-card-header>
+                            <mat-card-content>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                    <div class="cards">
+                        <mat-card class="example-card">
+                            <mat-card-header>
+                                <mat-card-title-group>
+                                    <mat-card-title>Total Appointment-Week</mat-card-title>
+                                    <mat-card-subtitle class="">
+                                        <div  class="icon">
+                                            <span id="svg"><img src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/Icons/ThisWeek_Widget.svg" alt=""></span>
+                                        <span class="four">25</span>
+                                        </div>
+                                    </mat-card-subtitle>
+                                </mat-card-title-group>
+                            </mat-card-header>
+                            <mat-card-content>
+                            </mat-card-content>
+                        </mat-card>
+                    </div>
+                </div>
+                <div>
+                    <div class="maintable">
+                        <div class="appoint">
+                            <div>Today's Appointment</div>
+                            <div> <a href="#">Book Appointment</a></div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Name</th>
+                                    <th>Doctor Name</th>
+                                    <th>Symptons</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10:30AM</td>
+                                    <td>Milka</td>
+                                    <td>Amelia Edwards</td>
+                                    <td>Swelling or bruising</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30AM</td>
+                                    <td>Laura</td>
+                                    <td>Nembo Lunkeni</td>
+                                    <td>Swelling , chills or bruising</td>
+                                </tr>
+                                <tr>
+                                    <td>01:00AM</td>
+                                    <td>Adams</td>
+                                    <td>Yara Baros </td>
+                                    <td>Swelling or bruising</td>
+                                </tr>
+                                <tr>
+                                    <td>04:30AM</td>
+                                    <td>John</td>
+                                    <td>Alexa Richarden</td>
+                                    <td>Feeling of ...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="maingraph">
+                        <div class="graph">
+                            <div [chart]="chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overf">
+                <h3>Recent Activities</h3>
+                <div class="activity">
+                    <div class="newdoc">
+                        <span> <b>Added New Doctor-</b> Dr.Johnson</span>
+                        <span>James,Cardiologist</span>
+                        <span id="year">2 year ago</span>
+                    </div>
+                    <div class="newdoc1">
+                        <span> <b>Added New Doctor-</b> Dr.Johnson</span>
+                        <span>James,Cardiologist</span>
+                        <span id="year">2 year ago</span>
+                    </div>
+                    <div class="newdoc2">
+                        <span> <b>Added New Doctor-</b> Dr.Johnson</span>
+                        <span>James,Cardiologist</span>
+                        <span id="year">2 year ago</span>
+                    </div>
+                    <div class="newdoc3">
+                        <span> <b>Added New Doctor-</b> Dr.Johnson</span>
+                        <span>James,Cardiologist</span>
+                        <span id="year">2 year ago</span>
+                    </div>
+                </div>
+                <div class="docavilability">
+                    <span>Doctor Avilability</span><span id="view">ViewAll</span>
+                    <div class="activity1">
+                        <div class="main1">
+                            <div class="icon"><img src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/images/NemboLukni.png" alt=""></div>
+                            <div class="info">
+                                <span class="dr">Dr.Nembo Lukeni</span>
+                                <span class="infont">GENERAL MEDICINE</span>
+                            </div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="main1">
+                            <div class="icon"><img
+                                    src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/images/MollieCobb.png"
+                                    alt=""></div>
+                            <div class="info">
+                                <span class="dr">Dr.Yara Baros</span>
+                                <span class="infont">NEUROLOGY</span>
+                            </div>
+                        </div>
+                        <div class="main1">
+                            <div class="icon"><img
+                                    src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/images/YaraBarros.png"
+                                    alt=""></div>
+                            <div class="info">
+                                <span class="dr">Dr.Mollie Cobb</span>
+                                <span class="infont">GENERAL MEDICINE</span>
+                            </div>
+                        </div>
+                        <div class="main1">
+                            <div class="icon"><img
+                                    src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/images/PaulWalker.png"
+                                    alt=""></div>
+                            <div class="info">
+                                <span class="dr">Dr.Paul Walker</span>
+                                <span class="infont">DEREMATOLOGY</span>
+                            </div>
+                        </div>
+                        <div class="main1">
+                            <div class="icon"><img
+                                    src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/images/AmeliaEdwards.png"
+                                    alt=""></div>
+                            <div class="info">
+                                <span class="dr">Dr.Amelia Edwards</span>
+                                <span class="infont">ORTHOPODICS</span>
+                            </div>
+                        </div>
+                        <div class="main1">
+                            <div class="icon"><img
+                                    src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/images/NoutGolstein.png"
+                                    alt=""></div>
+                            <div class="info">
+                                <span class="dr">Dr.Alexa Richardson</span>
+                                <span class="infont">DAIBETOLOGIEST</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

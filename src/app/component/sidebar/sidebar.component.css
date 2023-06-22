@@ -1,0 +1,77 @@
+.Main{
+    height: 662px;
+    width: 250px;
+    background-color:#272b39;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    
+    /* border: 1px solid black;  */
+    /* box-shadow: 5px 0px 5px 5px #dcdde1; */
+}
+.submain{
+    margin-top: 70px;
+
+}
+
+.example-card {
+    width: 250px;
+    /* max-width: 500px; */
+    /* margin-bottom: 8px; */
+  }
+  
+  
+  
+  
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  
+}
+
+
+.name{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.font{
+    font-size: 15px;
+    font-weight: 500;
+}
+.admin{
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+  cursor: pointer;
+
+}
+.dashboard{
+    height: 50px;
+    width: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    border-radius: 5px;
+    gap: 15px;
+    padding-top: 15px;
+    padding-left: 50px;
+    
+    
+}
+.dashboard:active {
+    background-color:blue;
+  }

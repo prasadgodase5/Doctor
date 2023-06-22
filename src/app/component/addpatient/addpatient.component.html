@@ -1,0 +1,74 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="cards">
+                <form>
+                    <h3>New Patient</h3>
+                    <div class="f">
+                        <div>
+                            <mat-label>Patient Name</mat-label>
+                            <mat-form-field class="example-full-width">
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                        <div class="dob">
+                            <div>
+                                <label>Gender</label><br>
+                                <mat-radio-group aria-label="Select an option">
+                                    <mat-radio-button value="1">Male</mat-radio-button>
+                                    <mat-radio-button value="2">Female</mat-radio-button>
+                                </mat-radio-group>
+                            </div>
+                            <div>
+                                <label>Date Of Birth</label><br>
+                                <mat-form-field>
+                                    <mat-date-range-input [rangePicker]="picker">
+                                        <input matStartDate placeholder="Start date">
+                                        <input matEndDate placeholder="End date">
+                                    </mat-date-range-input>
+                                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                                    <mat-date-range-picker #picker></mat-date-range-picker>
+                                </mat-form-field>
+                            </div>
+
+                        </div>
+                        <div class="con1">
+                            <div class="form-group">
+                                <mat-form-field>
+                                    <mat-label>Blood Group</mat-label>
+                                    <mat-select>
+                                        <mat-option value="option">A+</mat-option>
+                                        <mat-option value="option">B+</mat-option>
+                                        <mat-option value="option">AB+</mat-option>
+                                        <mat-option value="option">O+</mat-option>
+                                        <mat-option value="option">AB-</mat-option>
+                                        <mat-option value="option">A-</mat-option>
+                                        <mat-option value="option">B-</mat-option>
+                                        <mat-option value="option">O-</mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                            </div>
+                            <div class="mob col-5">
+                                <label for="">Mobile Number</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="e">
+                            <label for="">Email</label>
+                            <input type="email" class=form-control>
+                        </div>
+                        <div class="duty">
+                            <label for="">Symptoms</label>
+                            <input type="text" class=form-control>
+                        </div>
+                        <div class="btn">
+                            <button class="btn btn-secondary">Cancle</button>
+                            <button class="btn btn-success">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+.Main{
+    margin-left: 250px;
+}
+.about{
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cards{
+    /* margin-left: 50px; */
+}
+.para{
+    margin-left: 100px;
+    
+}
+p {
+    color:#34495e;
+    font-size: 13px;
+    letter-spacing: 0.48px;
+    line-height: 20px;
+}
+.headL{
+    margin-left: 100px;
+    font-weight:500;
+    font-size: 20px;
+}
+.boxd{
+    margin-left: 100px;
+    gap: 10px;
+    display: flex;
+    color: blue;
+    cursor: pointer;
+    align-items: center;
+}
+.top{
+    display: flex;
+}
