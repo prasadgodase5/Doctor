@@ -27,10 +27,11 @@ import { AddpatientComponent } from './component/addpatient/addpatient.component
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatSelectModule} from '@angular/material/select';
-
-
-
-
+import { ScheduleComponent } from './schedule/schedule.component';
+import { DocDetailsComponent } from './component/doc-details/doc-details.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { SearchPipe } from './search.pipe';
+import { DoctorsearchPipe } from './doctorsearch.pipe';
 
 
 
@@ -47,6 +48,10 @@ import {MatSelectModule} from '@angular/material/select';
     PatientComponent,
     AboutComponent,
     AddpatientComponent,
+    ScheduleComponent,
+    DocDetailsComponent,
+    SearchPipe,
+    DoctorsearchPipe,
   ],
   imports: [
     BrowserModule,
@@ -65,7 +70,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatRadioModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatSelectModule
+    MatSelectModule,
+    ReactiveFormsModule
   
    
 

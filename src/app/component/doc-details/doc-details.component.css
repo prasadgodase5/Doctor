@@ -1,0 +1,95 @@
+.main{
+    margin-left: 250px;
+}
+.head{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    
+}
+.btn button{
+    height: 30px;
+    width:80px;
+    display: flex;
+    justify-content: center;
+        
+}
+.data{
+    display: flex;
+    margin-top: 70px;
+    gap: 200px;
+    
+}
+.info{
+    margin-left: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.img1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.info span{
+    display: flex;
+}
+
+#dr{
+    font-size: 20px;
+    font-weight: 500;
+}
+#mbbs{
+    font-size: 12px;
+}
+#sp{
+    font-weight: 500;
+}
+#speci{
+    color:#7f8c8d;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+#ten{
+    font-weight: 400;
+}
+.Add{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+.plus{
+    color:#7575ff;
+}
+
+.days{
+    display: flex;
+    gap: 30px;
+     padding-top: 10px;
+}
+.timeS{
+    padding-left: 35px;
+}
+.time{
+    padding-left: 30px;
+}
+.timew{
+    padding-left: 10px;
+}
+.timeF{
+    padding-left: 45px;
+}
+.timeT{
+    padding-left: 25px;
+}

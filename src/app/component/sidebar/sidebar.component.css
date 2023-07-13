@@ -25,6 +25,64 @@
   
 .logo{
     display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    flex-direction: column;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  
+}
+
+
+.name{
+    /* padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; */
+}
+.font{
+    font-size: 15px;
+    font-weight: 500;
+}
+.admin{
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+  cursor: pointer;
+
+}
+.dashboard{
+    height: 50px;
+    width: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    border-radius: 5px;
+    gap: 15px;
+    padding-top: 15px;
+    padding-left: 50px;
+    
+}
+.submain{
+    margin-top: 70px;
+}
+
+.example-card {
+    width: 250px;
+    /* max-width: 500px; */
+    /* margin-bottom: 8px; */
+  }
+.logo{
+    display: flex;
     justify-content: center;
     text-align: center;
 }
@@ -72,6 +130,15 @@
     
     
 }
-.dashboard:active {
-    background-color:blue;
-  }
+
+.active{
+   background-color:#7575ff;
+}
+
+.dashboard:hover{
+    background-color: rgb(240, 236, 236);
+}
+
+.active:hover{
+    background-color:#7575ff;
+}

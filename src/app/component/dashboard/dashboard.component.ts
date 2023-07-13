@@ -13,7 +13,7 @@ export class DashboardComponent {
       type: 'line'
     },
     title: {
-      text: 'Linechart'
+      text: 'Consulation'
     },
     credits: {
       enabled: false
@@ -21,8 +21,16 @@ export class DashboardComponent {
     series: [
       {
         name: 'Line 1',
-        data: [1, 2, 3]
-      } as any
+        data: [10,15,13,5]
+      } ,
+      {
+        name: 'Line 2',
+        data: [6,4,9,2]
+      }as any,
+      {
+        name: 'Line 3',
+        data: [3,5,15,3]
+      }as any
     ]
   });
 

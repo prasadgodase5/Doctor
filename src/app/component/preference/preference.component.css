@@ -4,7 +4,6 @@
 
 mat-form-field{
     /* border: 1px solid gray; */
-    /* height: 60px;  */
     width: 450px;
 }
 
@@ -13,6 +12,7 @@ mat-form-field{
     margin-left: 150px;
     font-weight: 500;
 }
+
 .btn{
     border: 1px solid gray;  
     width: 30rem;
@@ -23,7 +23,3 @@ mat-form-field{
     color:#7f8c8d;
 }
 
-input{
-    width: 350px;
-    height: 35px;
-}

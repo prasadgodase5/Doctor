@@ -1,5 +1,5 @@
 .container{
-    height: 630px;
+    height: 600px;
     width: 480px;
     
 }  
@@ -30,4 +30,9 @@
   }
   .duty{
     padding-top: 10px;
+  }
+  
+  .rbtn{
+    display: flex;
+    gap: 5px;
   }

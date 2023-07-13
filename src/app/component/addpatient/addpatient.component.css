@@ -1,5 +1,5 @@
 .container{
-    height: 620px;
+    height: 580px;
     width: 500px;
     
 }  
@@ -22,7 +22,6 @@
     padding-top: 10px;
     display: flex;
     gap: 15px;
-    align-items: center;
   }
   .co{
     /* margin-top: 10px; */
@@ -36,3 +35,10 @@
     display: flex;
     gap: 20px;
   }
+
+.rbtn{
+  display: flex;
+}
+.date{
+  padding-left: 100px;
+}

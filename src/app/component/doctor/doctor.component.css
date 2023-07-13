@@ -1,5 +1,6 @@
 .main{
     margin-left: 250px;
+    right: 0;
 }
 .list{
     font-size:20px;
@@ -53,4 +54,11 @@ color: #95a5a6;
 }
 .btn{
   height: 40px;
+}
+.cards{
+
+  margin-left: 30px;
+}
+.hov:hover{
+box-shadow: 0 0 10px #7575ff;
 }

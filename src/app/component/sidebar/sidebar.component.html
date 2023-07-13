@@ -5,8 +5,6 @@
         <mat-card-content>
             <div class="submain">
                 <div class="logo">
-                    <mat-card class="example-card">
-                        <mat-card-content>
                             <div class="img2">
                                 <img src="../../../assets/images/doc.jpg" alt="">
                             </div>
@@ -14,32 +12,29 @@
                                 <span class="font">jane doe</span>
                                 <span class="">Admin</span>
                             </div>
-
-                        </mat-card-content>
-                    </mat-card>
                 </div>
                 <div class="con">
-                    <div class="dashboard" routerLink="/">
+                    <div class="dashboard" [routerLinkActive]="'active'" routerLink="/dash">
                         <mat-icon>dashboard</mat-icon>
                         <h3>Dashboard</h3>
                     </div>
-                    <div class="dashboard">
+                    <div class="dashboard" [routerLinkActive]="'active'" routerLink="/sche">
                         <mat-icon>today</mat-icon>
                         <h3>Schedule</h3>
                     </div>
-                    <div class="dashboard" routerLink="/doctor">
+                    <div class="dashboard" [routerLinkActive]="'active'" routerLink="/doctor">
                         <mat-icon>local_hospital</mat-icon>
                         <h3>Doctor</h3>
                     </div>
-                    <div class="dashboard" routerLink="/patient">
+                    <div class="dashboard" [routerLinkActive]="'active'" routerLink="/patient">
                         <mat-icon>wc</mat-icon>
                         <h3>Patients</h3>
                     </div>
-                    <div class="dashboard" routerLink="/pre">
+                    <div class="dashboard" [routerLinkActive]="'active'" routerLink="/pre">
                         <mat-icon>line_weight</mat-icon>
                         <h3>Prefernce</h3>
                     </div>
-                    <div class="dashboard" routerLink="/about">
+                    <div class="dashboard" [routerLinkActive]="'active'" routerLink="/about">
                         <mat-icon>block</mat-icon>
                         <h3>About</h3>
                     </div>

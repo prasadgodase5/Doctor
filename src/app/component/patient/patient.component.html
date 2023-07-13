@@ -7,35 +7,40 @@
             <h2>PATIENT LIST</h2>
         </div>
         <div class="side">
-            <div class="search"><input type="text"></div>
+            <div class="search"><input type="text" placeholder="search" (keyup)="searched($event)"></div>
             <div><button class="btn btn-primary" (click)="openDialog()">Add Patients</button></div>
         </div>
     </div>
     <div id="ttttt">
-        <table class="table border">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Gender</th>
-                    <th>Blood Group</th>
-                    <th>Symptoms</th>
-                    <th>Mobile Number</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>prasad</td>
-                    <td>gender</td>
-                    <td>A+</td>
-                    <td>none</td>
-                    <td>94449494</td>
-                    <td>@gmail</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="col">
+            <div class="row">
+                <table class="table border table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Blood Group</th>
+                            <th>Symptoms</th>
+                            <th>Mobile Number</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let i of data  |search:tx; let i1=index">
+                            <td>{{i1+1}}</td>
+                            <td>{{i.Name}}</td>
+                            <td>{{i.Gender}}</td>
+                            <td>{{i.BloodGroup}}</td>
+                            <td>{{i.Symptoms.slice(0,20)}}...</td>
+                            <td>{{i.Mobile}}</td>
+                            <td>{{i.Email}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       
     </div>
 </div>
   

@@ -6,14 +6,14 @@
         <div class="list">DOCTOR LIST</div>
         <div class="btnw">
             <div class="sel">
-                <mat-form-field>
+                <mat-form-field appearance="outline">
                     <mat-label>Select a Specilizatio</mat-label>
                     <mat-select>
-                        <mat-option value="option">General Medicine</mat-option>
-                        <mat-option value="option">Nuerology</mat-option>
-                        <mat-option value="option">Darmitology</mat-option>
-                        <mat-option value="option">Orthopedics</mat-option>
-                        <mat-option value="option">Daibetolog</mat-option>
+                        <mat-option value="generalmedicine" (click)="searched1('generalmedicine')">General Medicine</mat-option>
+                        <mat-option value="neurology" (click)="searched1('neurology')" >Nuerology</mat-option>
+                        <mat-option value="dermatology" (click)="searched1('dermatology')" >Darmitology</mat-option>
+                        <mat-option value="Orthopedics" (click)="searched1('Orthopedics')" >Orthopedics</mat-option>
+                        <mat-option value="Daibetolog" (click)="searched1('Daibetolog')" >Daibetolog</mat-option>
                     </mat-select>
                 </mat-form-field>
             </div>
@@ -21,33 +21,40 @@
         </div>
 
     </div>
-    <div class="cards">
-        <mat-card class="example-card">
-            <mat-card-content>
-                <div class="top">
-                    <div class="img1"><img
-                            src="https://ej2.syncfusion.com/showcase/angular/appointmentplanner/assets/images/MollieCobb.png"
-                            alt="">
-                    </div>
-                    <div class="data">
-                        <div class="name">
-                            <h2>Dr.Mollie Cobb</h2>
-                        </div>
-                        <div class="name"><h3>MBBS,DMRD</h3></div>
-                        <div class="comm">
-                            <div class="design">
-                                <span class="dd">Designation</span>
-                                <span>Junior Specilist</span>
+    <div class="cards mt-3">
+        <div class="row">
+            <div class="col-6 pa" *ngFor="let i of doctorsdata | doctorsearch:tx1">
+                <mat-card class="example-card mt-4 hov">
+                    <mat-card-content>
+                        <div class="top">
+                            <div class="img1"><img
+                                    src="{{i.image}}"
+                                    alt="">
                             </div>
-                            <div class="ex">
-                                <span class="dd">Experience</span>
-                                <span>10+ Year</span>
+                            <div class="data" routerLink="/details">
+                                <div class="name">
+                                    <h2>{{i.D_name}}</h2>
+                                </div>
+                                <div class="name">
+                                    <h3>{{i.education}}</h3>
+                                </div>
+                                <div class="comm">
+                                    <div class="design">
+                                        <span class="dd">Designation</span>
+                                        <span>{{i.designation}}</span>
+                                    </div>
+                                    <div class="ex">
+                                        <span class="dd">Experience</span>
+                                        <span>{{i.experience}}</span>
+                                    </div>
+                                </div>
+        
                             </div>
                         </div>
-
-                    </div>
-                </div>
-            </mat-card-content>
-        </mat-card>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+        
     </div>
 </div>
