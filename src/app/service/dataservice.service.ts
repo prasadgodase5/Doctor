@@ -26,6 +26,7 @@ postdoc(data:any){
   return this.http.post("http://localhost:3000/doctordetails",data);
 }
 
+
 public search=new Subject<any>();
 
 getsearchtext(data:any){

@@ -21,6 +21,7 @@ export class PatientComponent implements OnInit {
     });
 
   }
+  
   data:any=[];
   tx:any;
     ngOnInit(): void{
